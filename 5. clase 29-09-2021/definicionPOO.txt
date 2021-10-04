@@ -1,0 +1,13 @@
+Defina brevemente {No consulte google]
+-que es POO 
+es la utilizacion de cualquier cosa que se convierte en un objeto para que se peda moldear y utilizar en el codogi
+-que es metodo
+la serie de acciones que realiza un objeto 
+-que es atributo
+es todo lo que el objeto puede hacer 
+-que es herencia
+es un acompañamiento derivado de la clase padre y la clase hija 
+-Para que sirve la POO
+para poder utilizar un cualquier cosa y que esta se moldee para poder utilizarla en codigo 
+-como inicia sus uso en un proyecto 
+inicia con una etiqueta class luego se pone una funcion declarando metodos y atributos y asi 
