@@ -1,1 +1,7 @@
 codificar un herencia del diagrama de clases del proyecto y codificarla en javascript
+
+para quitar las credenciales 
+git credential-manager delete https://github.com
+
+link para cambiar credenciales
+https://es.bannikherafarm.com/149153-how-to-change-git-account-DYQEFN#:~:text=Para%20actualizar%20sus%20credenciales%20de%20Git%2C%20vaya%20a,usar%20la%20contrase%C3%B1a%20actualizada.%20Enlace%20de%20referencia%3A%20https%3A%2F%2Fcmatskas.com%2Fhow-to-update-your-git-credentials-on-windows%2F
