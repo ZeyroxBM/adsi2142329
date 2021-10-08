@@ -1,0 +1,5 @@
+
+<----------------------- instrucciones busqueda portafolio ----------------------->
+
+-1. el portafolio se encuentra en la carpeta port y su carpeta respectiva
+-2. el index se encueentra en la carpeta portafolio y su respectiva vista es 'index.html'
