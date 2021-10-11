@@ -1,5 +1,23 @@
 
 <----------------------- instrucciones busqueda portafolio ----------------------->
 
--1. el portafolio se encuentra en la carpeta port y su carpeta respectiva
--2. el index se encueentra en la carpeta portafolio y su respectiva vista es 'index.html'
+-1. el portafolio se encuentra en la carpeta 'portafolio' correspondiente al siguiente orden para encontrarla 'adsi2142329/portafolio/portafolio' para ingresar a la vista principal se encuentra en el archivo index.html correspondiente en dicha carpeta
+
+
+
+
+
+<----------------------- instrucciones busqueda crud ----------------------->
+
+-1. el crud se encuentra en las carpetas en el siguiente orden 'adsi2142329/portafolio/crud/php_crud_mysql/index.html' comenzando por adsi2142329 que seria la carpeta principal correspondiente al repositorio
+
+-2. para la base de datos del crud debe ingresar a localhost/phpmyadmin o al siguiente link 'https://localhost/phpmyadmin/' 
+en el cual se debera crear una nueva base de datos con el nombre 'php_mysql_crud' que sera correspondido en la conexion de la base de datos con el crud
+
+-3. despues se dirigira a buscar la base de datos llamada 'php_crud_mysql.sql' en la carpeta correspondiente siguiendo este orden para encontrarla: 'adsi2142329/portafolio/crud/database/php_crud_mysql.sql'
+
+-4. despues de encontrarla de dirigira a importarla en la base de datos creada en phpmyadmin para cargar las tablas correspondientes y utilizar el crud
+
+
+
+
