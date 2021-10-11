@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>crud</title>
+
+    <!-- link css -->
+
+    <link rel="stylesheet" href="assets/style.css">
+
+    <!-- boostrap 4 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- font awesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar sticky-top navbar-dark bg-dark">
+        <div class="container">
+            <a href="index.php" class="navbar-brand">PHP MYSQL CRUD</a>
+            <a href="../../../adsi2142329/port/portafolio/index.html" class="navbar-brand efecto border rounded-pill p-2">Portafolio</a>
+        </div>
+
+    </nav>
+    <div class="container">
+        <h1>este es mi codigo de la herencia sobre el proyecto</h1>
+        <pre>
+            class Persona {
+    constructor(nombre, apellido, numDoc) {
+        this._nombre = nombre;
+        this._apellido = apellido;
+        this._numDoc = numDoc;
+    }
+
+    get nombre() {
+        return this._nombre;
+    }
+
+    set nombre(nombre) {
+        this._nombre = nombre;
+    }
+
+    get apellido() {
+        return this._apellido;
+    }
+
+    set apellido(apellido) {
+        this._apellido = apellido;
+    }
+
+    get numDoc() {
+        return this._numDoc;
+    }
+
+    set numDoc(numDoc) {
+        this._numDoc = numDoc;
+    }
+}
+
+class Cliente extends Persona {
+    constructor(nombre, apellido, numDoc, idCliente, correo, telefono) {
+        super(nombre, apellido, numDoc);
+        this._idCliente = idCliente;
+        this._correo = correo;
+        this._telefono = telefono;
+
+    }
+
+    get idCliente() {
+        return this._idCliente;
+    }
+
+    set idCliente(idCliente) {
+        this._idCliente = idCliente;
+    }
+
+    get correo() {
+        return this._correo;
+    }
+
+    set correo(correo) {
+        this._correo = correo;
+    }
+
+    get telefono() {
+        return this._telefono;
+    }
+
+    set telefono(telefono) {
+        this._telefono = telefono;
+    }
+
+}
+
+var ob = new Persona('juan', 'castro', 1278931);
+console.log(ob);
+
+var clt = new Cliente('pedro', 'castillo', 1278931, 001, 'pedrito@gmail.com', 314);
+console.log(clt);
+        </pre>
+    </div>
+</body>
+
+</html>

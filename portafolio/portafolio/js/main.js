@@ -134,10 +134,12 @@ function bodyScrollingToggle() {
 
     function popupDetailsToggle() {
         if (projectDetailsContainer.classList.contains("active")) {
-
-        } else {
+            projectDetailsContainer.classList.remove("active");
+            projectDetailsContainer.style.maxHeight =0 + "px";
+        } 
+        else {
             projectDetailsContainer.classList.add("active");
-            projectDetailContainer
+            projectDetailsContainer.style.maxheight = projectDetailsContainer.scrollHeight + "px";
         }
     }
 

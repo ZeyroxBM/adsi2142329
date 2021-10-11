@@ -20,4 +20,6 @@ en el cual se debera crear una nueva base de datos con el nombre 'php_mysql_crud
 
 
 
+<----------------------- instrucciones busqueda funciones ----------------------->
 
+-1. las funciones se encuentan en la misma carpeta portafolio y en la carpeta funciones ahi se encuentran los 3 archivos 

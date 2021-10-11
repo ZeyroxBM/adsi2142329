@@ -156,13 +156,18 @@
 }
 
 .portfolio-popup .pp-details {
-    /* background-color: red; */
+    background-color: red;
     max-width: 1350px;
     width: calc(85% + 30px);
     margin: auto;
     max-height: 0;
     overflow: hidden;
-    opacity: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+
+.portfolio-popup .pp-details.active{
+    opacity:1;
 }
 
 .portfolio-popup .pp-details-inner {

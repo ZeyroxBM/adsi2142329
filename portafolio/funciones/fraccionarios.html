@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>crud</title>
+
+    <!-- link css -->
+
+    <link rel="stylesheet" href="assets/style.css">
+
+    <!-- boostrap 4 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- font awesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar sticky-top navbar-dark bg-dark">
+        <div class="container">
+            <a href="index.php" class="navbar-brand">PHP MYSQL CRUD</a>
+            <a href="../../../adsi2142329/port/portafolio/index.html" class="navbar-brand efecto border rounded-pill p-2">Portafolio</a>
+        </div>
+
+    </nav>
+    <div class="container">
+        <h1>este es mi codigo de los fracionarios</h1>
+        <pre>
+            //actividad fracciones 
+            
+            var frac={
+                n1:1,
+                n2:4,
+                d1:7,
+                d2:3,
+                suma:function(){
+                    numeradorS1=this.n1 * this.d2;
+                    numeradorS2=this.n2 * this.d1;
+                    numeradorSF=numeradorS1 + numeradorS2;
+                    denominadorS=this.d1 * this.d2;
+                    return 'el resultado de la suma es '+ numeradorSF + ' / ' + denominadorS;
+                },
+                resta:function(){
+                    numeradorR1=this.n1 * this.d2;
+                    numeradorR2=this.n2 * this.d1;
+                    numeradorRF=numeradorS1 - numeradorS2;
+                    denominadorR=this.d1 * this.d2;
+                    return 'el resultado de la resta es '+ numeradorRF + ' / ' + denominadorR;
+                },
+                multi:function(){
+                    numeradorM1=this.n1 * this.n2;
+                    numeradorM2=this.d1 * this.d2;
+                    return 'el resultado de la multiplicacion es '+ numeradorM1 + ' / ' +numeradorM2;
+                },
+                divi:function(){
+                    numeradorD1=this.n1 * this.d2;
+                    numeradorD2=this.n2 * this.d1;
+                    return 'el resultado de la division es '+ numeradorD1 + ' / ' +numeradorD2;
+                }
+            }
+            
+            console.log(frac.suma());
+            
+            console.log(frac.resta());
+            
+            console.log(frac.multi());
+            
+            console.log(frac.divi());
+        </pre>
+    </div>
+</body>
+
+</html>
